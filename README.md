@@ -1,4 +1,4 @@
-# qgis-plugin
+# QGISWeblink
 
 Plugin pour QGIS 3 fournissant un accès simple aux flux géographiques WMS et WFS de L'Eurométropole de Strasbourg et d'autres ressources géographiques utiles.
 
