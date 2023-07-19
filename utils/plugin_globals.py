@@ -16,8 +16,8 @@ class PluginGlobals:
     # Plugin infos
     PLUGIN_TAG = u"QGISweblink"
     #PLUGIN_TAG = u"indigeo"
-    PLUGIN_VERSION = u"0.2 build 1"
-    PLUGIN_SOURCE_REPOSITORY = u"https://github.com/geograndest/qgis-plugin"
+    PLUGIN_VERSION = u"2.1"
+    PLUGIN_SOURCE_REPOSITORY = u"https://github.com/Ville-Eurometropole-Strasbourg/QGISWeblink_EMS"
 
     # Tree nodes types
     NODE_TYPE_FOLDER = "folder"
@@ -52,7 +52,7 @@ class PluginGlobals:
 
     CONFIG_DIR_NAME = "config"
     CONFIG_FILE_NAMES = ["config.json"]
-    CONFIG_FILE_URLS = ["https://catalog.wpsiglw.cus.fr/donnees/qgis/plugin_ems/config_ems2.json"]
+    CONFIG_FILE_URLS = ["https://catalog.wpsiglw.cus.fr/donnees/qgis/plugin_ems/config_ems4.json"]
 
     # Hide resources with status = warn
     HIDE_RESOURCES_WITH_WARN_STATUS = True
@@ -63,7 +63,7 @@ class PluginGlobals:
     def __init__(self):
         """
         """
-    
+
         self.default_qsettings = {
             "CONFIG_FILES_DOWNLOAD_AT_STARTUP": self.CONFIG_FILES_DOWNLOAD_AT_STARTUP,
             "CONFIG_FILE_NAMES": self.CONFIG_FILE_NAMES,
