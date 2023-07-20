@@ -52,7 +52,7 @@ class PluginGlobals:
 
     CONFIG_DIR_NAME = "config"
     CONFIG_FILE_NAMES = ["config.json"]
-    CONFIG_FILE_URLS = ["https://catalog.wpsiglw.cus.fr/donnees/qgis/plugin_ems/config_ems4.json"]
+    CONFIG_FILE_URLS = ["https://catalog.wpsiglw.cus.fr/donnees/qgis/plugin_ems/config.json"]
 
     # Hide resources with status = warn
     HIDE_RESOURCES_WITH_WARN_STATUS = True
