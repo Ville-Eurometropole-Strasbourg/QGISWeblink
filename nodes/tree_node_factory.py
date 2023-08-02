@@ -23,7 +23,6 @@ def download_tree_config_file(file_url):
             json.dump(data, local_config_file, ensure_ascii=False, indent=2)
         if PluginGlobals.instance().USE_AUTH_CONFIG:
             xmlUrl = file_url[:file_url.rfind('/') + 1] + "config_authent.xml"
-            PluginGlobals.instance().iface.messageBar().pushWarning(None, str(xmlUrl))
             response_xml = requests.get(xmlUrl, verify=False)
             with open(PluginGlobals.instance().AUTHENT_FILE_PATH, 'wb') as local_xml_file:
                 local_xml_file.write(response_xml.content)
