@@ -1,107 +1,96 @@
 {
   "children": [
     {
-      "title": "Construction - Patrimoine",
+      "title": "Construction patrimoine",
       "children": [
-        {
-          "title": "Documentation du patrimoine bâti",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://whsiglw.cus.fr/qgis/patri_documentation_pat_bati",
-            "name": "patri_documentation_pat_bati",
-            "format": "image/png",
-            "srs": "EPSG:3948"
-          },
-          "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2019_02_27_73"
-        },
-        {
-          "title": "Couches Documentation du patrimoine bâti",
-          "type": "qgis_qlr_file",
-          "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/patri_documentation_pat_bati.qlr",
-            "name": "patri_documentation_pat_bati",
-            "format": "image/png",
-            "srs": "EPSG:3948"
-          },
-          "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2019_02_27_73"
-        },
         {
           "title": "Les locaux dans les écoles",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/patri_locaux_ecoles",
+            "url": "https://wpsiglw.cus.fr/qgis/patri_locaux_ecoles",
             "name": "patri_locaux_ecoles",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "066f4b45-26dc-11ee-a321-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_10_08_12"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_10_08_12",
+          "ident": "066f4b45-26dc-11ee-a321-84a93e705419"
         },
         {
           "title": "Couches Les locaux dans les écoles",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/patri_locaux_ecoles.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/patri_locaux_ecoles.qlr",
             "name": "patri_locaux_ecoles",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "066f4b45-26dc-11ee-a321-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_10_08_12"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_10_08_12",
+          "ident": "066f4b45-26dc-11ee-a321-84a93e705419"
         },
         {
           "title": "Panneaux d'information totem",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/patri_totem",
+            "url": "https://wpsiglw.cus.fr/qgis/patri_totem",
             "name": "patri_totem",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "0671b753-26dc-11ee-af17-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_03_24_34"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_03_24_34",
+          "ident": "0671b753-26dc-11ee-af17-84a93e705419"
         },
         {
           "title": "Couches Panneaux d'information totem",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/patri_totem.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/patri_totem.qlr",
             "name": "patri_totem",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "0671b753-26dc-11ee-af17-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_03_24_34"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_03_24_34",
+          "ident": "0671b753-26dc-11ee-af17-84a93e705419"
         },
         {
           "title": "Monuments historiques",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/patri_monument_historique",
+            "url": "https://wpsiglw.cus.fr/qgis/patri_monument_historique",
             "name": "patri_monument_historique",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06741bae-26dc-11ee-b137-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06741bae-26dc-11ee-b137-84a93e705419"
         },
         {
           "title": "Couches Monuments historiques",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/patri_monument_historique.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/patri_monument_historique.qlr",
             "name": "patri_monument_historique",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06741bae-26dc-11ee-b137-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06741bae-26dc-11ee-b137-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "07031011-26dc-11ee-914c-84a93e705419"
     },
     {
       "title": "Foncier",
@@ -110,53 +99,62 @@
           "title": "Plan cadastral EMS",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/fonci_plan_cadastral_ems",
+            "url": "https://wpsiglw.cus.fr/qgis/fonci_plan_cadastral_ems",
             "name": "fonci_plan_cadastral_ems",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "0674b83e-26dc-11ee-9fc4-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_03_08_3"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_03_08_3",
+          "ident": "0674b83e-26dc-11ee-9fc4-84a93e705419"
         },
         {
           "title": "Couches Plan cadastral EMS",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/fonci_plan_cadastral_ems.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/fonci_plan_cadastral_ems.qlr",
             "name": "fonci_plan_cadastral_ems",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "0674b83e-26dc-11ee-9fc4-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_03_08_3"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_03_08_3",
+          "ident": "0674b83e-26dc-11ee-9fc4-84a93e705419"
         },
         {
           "title": "Propriétaire institutionnel",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/fonci_proprietaire_institutionnel",
+            "url": "https://wpsiglw.cus.fr/qgis/fonci_proprietaire_institutionnel",
             "name": "fonci_proprietaire_institutionnel",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06772594-26dc-11ee-aa9e-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_06_07_49"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_06_07_49",
+          "ident": "06772594-26dc-11ee-aa9e-84a93e705419"
         },
         {
           "title": "Couches Propriétaire institutionnel",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/fonci_proprietaire_institutionnel.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/fonci_proprietaire_institutionnel.qlr",
             "name": "fonci_proprietaire_institutionnel",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06772594-26dc-11ee-aa9e-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_06_07_49"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_06_07_49",
+          "ident": "06772594-26dc-11ee-aa9e-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "07031012-26dc-11ee-abe9-84a93e705419"
     },
     {
       "title": "Fonds historiques",
@@ -165,29 +163,34 @@
           "title": "Plan cadastral allemand",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/histo_cadastre_allemand",
+            "url": "https://wpsiglw.cus.fr/qgis/histo_cadastre_allemand",
             "name": "histo_cadastre_allemand",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06772595-26dc-11ee-938c-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_01_26_13"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_01_26_13",
+          "ident": "06772595-26dc-11ee-938c-84a93e705419"
         },
         {
           "title": "Couches Plan cadastral allemand",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/histo_cadastre_allemand.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/histo_cadastre_allemand.qlr",
             "name": "histo_cadastre_allemand",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06772595-26dc-11ee-938c-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_01_26_13"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_01_26_13",
+          "ident": "06772595-26dc-11ee-938c-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "07031013-26dc-11ee-8049-84a93e705419"
     },
     {
       "title": "Limites administratives",
@@ -196,77 +199,90 @@
           "title": "Limites des découpages électoraux",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/limit_election",
-            "name": "limit_election",
+            "url": "https://wpsiglw.cus.fr/qgis/limit_election_bv",
+            "name": "limit_election_bv",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06797e8f-26dc-11ee-a4f2-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_03_07_19"
+          "metadata_url": "",
+          "ident": "06797e8f-26dc-11ee-a4f2-84a93e705419"
         },
         {
           "title": "Couches Limites des découpages électoraux",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/limit_election.qlr",
-            "name": "limit_election",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/limit_election_bv.qlr",
+            "name": "limit_election_bv",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06797e8f-26dc-11ee-a4f2-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_03_07_19"
+          "metadata_url": "",
+          "ident": "06797e8f-26dc-11ee-a4f2-84a93e705419"
         },
         {
           "title": "Limites administratives diverses",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/limit_limites_administratives",
+            "url": "https://wpsiglw.cus.fr/qgis/limit_limites_administratives",
             "name": "limit_limites_administratives",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "067be975-26dc-11ee-a526-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "067be975-26dc-11ee-a526-84a93e705419"
         },
         {
           "title": "Couches Limites administratives diverses",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/limit_limites_administratives.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/limit_limites_administratives.qlr",
             "name": "limit_limites_administratives",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "067be975-26dc-11ee-a526-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "067be975-26dc-11ee-a526-84a93e705419"
         },
         {
-          "title": "Géographie prioritaire : QPV, QVA, ZFU",
+          "title": "Géographies prioritaires",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/limit_geographie_prioritaire",
+            "url": "https://wpsiglw.cus.fr/qgis/limit_geographie_prioritaire",
             "name": "limit_geographie_prioritaire",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "067e9567-26dc-11ee-a2cf-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "067e9567-26dc-11ee-a2cf-84a93e705419"
         },
         {
-          "title": "Couches Géographie prioritaire : QPV, QVA, ZFU",
+          "title": "Couches Géographies prioritaires",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/limit_geographie_prioritaire.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/limit_geographie_prioritaire.qlr",
             "name": "limit_geographie_prioritaire",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "067e9567-26dc-11ee-a2cf-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "067e9567-26dc-11ee-a2cf-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "07031014-26dc-11ee-873f-84a93e705419"
     },
     {
       "title": "Mobilité - Infrastructure - Déplacement",
@@ -275,194 +291,450 @@
           "title": "Transports en commun",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/mobil_transport_en_commun",
+            "url": "https://wpsiglw.cus.fr/qgis/mobil_transport_en_commun",
             "name": "mobil_transport_en_commun",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06810430-26dc-11ee-a1f6-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06810430-26dc-11ee-a1f6-84a93e705419"
         },
         {
           "title": "Couches Transports en commun",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/mobil_transport_en_commun.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/mobil_transport_en_commun.qlr",
             "name": "mobil_transport_en_commun",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06810430-26dc-11ee-a1f6-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06810430-26dc-11ee-a1f6-84a93e705419"
         },
         {
           "title": "Stationnement des véhicules",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/mobil_stationnement_vehicules",
+            "url": "https://wpsiglw.cus.fr/qgis/mobil_stationnement_vehicules",
             "name": "mobil_stationnement_vehicules",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06836681-26dc-11ee-bb54-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06836681-26dc-11ee-bb54-84a93e705419"
         },
         {
           "title": "Couches Stationnement des véhicules",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/mobil_stationnement_vehicules.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/mobil_stationnement_vehicules.qlr",
             "name": "mobil_stationnement_vehicules",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06836681-26dc-11ee-bb54-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06836681-26dc-11ee-bb54-84a93e705419"
+        },
+        {
+          "title": "Hiérarchisation des voies",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/mobil_hierarchisation_voies",
+            "name": "mobil_hierarchisation_voies",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06840373-26dc-11ee-a583-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06840373-26dc-11ee-a583-84a93e705419"
+        },
+        {
+          "title": "Couches Hiérarchisation des voies",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/mobil_hierarchisation_voies.qlr",
+            "name": "mobil_hierarchisation_voies",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06840373-26dc-11ee-a583-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06840373-26dc-11ee-a583-84a93e705419"
+        },
+        {
+          "title": "Zones de stationnement payant",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/mobil_stationnement_zones",
+            "name": "mobil_stationnement_zones",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06867ebc-26dc-11ee-8203-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06867ebc-26dc-11ee-8203-84a93e705419"
+        },
+        {
+          "title": "Couches Zones de stationnement payant",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/mobil_stationnement_zones.qlr",
+            "name": "mobil_stationnement_zones",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06867ebc-26dc-11ee-8203-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06867ebc-26dc-11ee-8203-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "07031015-26dc-11ee-b724-84a93e705419"
     },
     {
-      "title": "Nature - Paysages",
+      "title": "Nature et paysages",
       "children": [
         {
           "title": "Trames verte et bleue",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/natur_trames_verte_bleue",
+            "url": "https://wpsiglw.cus.fr/qgis/natur_trames_verte_bleue",
             "name": "natur_trames_verte_bleue",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "0688ecb4-26dc-11ee-ab24-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_05_3"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_05_3",
+          "ident": "0688ecb4-26dc-11ee-ab24-84a93e705419"
         },
         {
           "title": "Couches Trames verte et bleue",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/natur_trames_verte_bleue.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/natur_trames_verte_bleue.qlr",
             "name": "natur_trames_verte_bleue",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "0688ecb4-26dc-11ee-ab24-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_05_3"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_05_3",
+          "ident": "0688ecb4-26dc-11ee-ab24-84a93e705419"
         },
         {
           "title": "Zones humides",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/natur_zones_humides",
+            "url": "https://wpsiglw.cus.fr/qgis/natur_zones_humides",
             "name": "natur_zones_humides",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "068b43cd-26dc-11ee-9aae-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_05_95"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_05_95",
+          "ident": "068b43cd-26dc-11ee-9aae-84a93e705419"
         },
         {
           "title": "Couches Zones humides",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/natur_zones_humides.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/natur_zones_humides.qlr",
             "name": "natur_zones_humides",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "068b43cd-26dc-11ee-9aae-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_05_95"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_05_95",
+          "ident": "068b43cd-26dc-11ee-9aae-84a93e705419"
+        },
+        {
+          "title": "Eco-pâturage et points verts",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/natur_eco_paturage",
+            "name": "natur_eco_paturage",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "068de890-26dc-11ee-93c8-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "068de890-26dc-11ee-93c8-84a93e705419"
+        },
+        {
+          "title": "Couches Eco-pâturage et points verts",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/natur_eco_paturage.qlr",
+            "name": "natur_eco_paturage",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "068de890-26dc-11ee-93c8-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "068de890-26dc-11ee-93c8-84a93e705419"
+        },
+        {
+          "title": "Fleurissement - Aires de jeux - Jardins familiaux",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/natur_ev_fleur_airejeux_jardfam",
+            "name": "natur_ev_fleur_airejeux_jardfam",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "068de891-26dc-11ee-abe2-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "068de891-26dc-11ee-abe2-84a93e705419"
+        },
+        {
+          "title": "Couches Fleurissement - Aires de jeux - Jardins familiaux",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/natur_ev_fleur_airejeux_jardfam.qlr",
+            "name": "natur_ev_fleur_airejeux_jardfam",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "068de891-26dc-11ee-abe2-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "068de891-26dc-11ee-abe2-84a93e705419"
+        },
+        {
+          "title": "Patrimoine arboré",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/natur_ev_patri_arbore",
+            "name": "natur_ev_patri_arbore",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06904ca4-26dc-11ee-b5c4-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06904ca4-26dc-11ee-b5c4-84a93e705419"
+        },
+        {
+          "title": "Couches Patrimoine arboré",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/natur_ev_patri_arbore.qlr",
+            "name": "natur_ev_patri_arbore",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06904ca4-26dc-11ee-b5c4-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06904ca4-26dc-11ee-b5c4-84a93e705419"
+        },
+        {
+          "title": "Plan canopée",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/natur_plan_canopee",
+            "name": "natur_plan_canopee",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06934cf1-26dc-11ee-ac2b-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06934cf1-26dc-11ee-ac2b-84a93e705419"
+        },
+        {
+          "title": "Couches Plan canopée",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/natur_plan_canopee.qlr",
+            "name": "natur_plan_canopee",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06934cf1-26dc-11ee-ac2b-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06934cf1-26dc-11ee-ac2b-84a93e705419"
+        },
+        {
+          "title": "Tissu naturel urbain",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/natur_tissu_naturel_urbain",
+            "name": "natur_tissu_naturel_urbain",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "0695bbbf-26dc-11ee-a6f4-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "0695bbbf-26dc-11ee-a6f4-84a93e705419"
+        },
+        {
+          "title": "Couches Tissu naturel urbain",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/natur_tissu_naturel_urbain.qlr",
+            "name": "natur_tissu_naturel_urbain",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "0695bbbf-26dc-11ee-a6f4-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "0695bbbf-26dc-11ee-a6f4-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "07031016-26dc-11ee-9d7c-84a93e705419"
     },
     {
       "title": "Occupation du domaine public",
       "children": [
         {
-          "title": "Terrasses",
+          "title": "Terrasses (bars et restaurants) ",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/occup_terrasses",
+            "url": "https://wpsiglw.cus.fr/qgis/occup_terrasses",
             "name": "occup_terrasses",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "0695bbc0-26dc-11ee-8117-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_11_30_5"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_11_30_5",
+          "ident": "0695bbc0-26dc-11ee-8117-84a93e705419"
         },
         {
-          "title": "Couches Terrasses",
+          "title": "Couches Terrasses (bars et restaurants) ",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/occup_terrasses.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/occup_terrasses.qlr",
             "name": "occup_terrasses",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "0695bbc0-26dc-11ee-8117-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_11_30_5"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_11_30_5",
+          "ident": "0695bbc0-26dc-11ee-8117-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "07031017-26dc-11ee-a746-84a93e705419"
     },
     {
-      "title": "Propreté - Collecte",
+      "title": "Propreté et collecte",
       "children": [
         {
           "title": "Points d'apport volontaire",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/propr_apport_volontaire",
+            "url": "https://wpsiglw.cus.fr/qgis/propr_apport_volontaire",
             "name": "propr_apport_volontaire",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06981d2f-26dc-11ee-b7fb-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2020_06_22_36"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2020_06_22_36",
+          "ident": "06981d2f-26dc-11ee-b7fb-84a93e705419"
         },
         {
           "title": "Couches Points d'apport volontaire",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/propr_apport_volontaire.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/propr_apport_volontaire.qlr",
             "name": "propr_apport_volontaire",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06981d2f-26dc-11ee-b7fb-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2020_06_22_36"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2020_06_22_36",
+          "ident": "06981d2f-26dc-11ee-b7fb-84a93e705419"
         },
         {
           "title": "Thématique canine",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/propr_thematique_canine",
+            "url": "https://wpsiglw.cus.fr/qgis/propr_thematique_canine",
             "name": "propr_thematique_canine",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "069a8034-26dc-11ee-b4b9-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "069a8034-26dc-11ee-b4b9-84a93e705419"
         },
         {
           "title": "Couches Thématique canine",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/propr_thematique_canine.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/propr_thematique_canine.qlr",
             "name": "propr_thematique_canine",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "069a8034-26dc-11ee-b4b9-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "069a8034-26dc-11ee-b4b9-84a93e705419"
+        },
+        {
+          "title": "Toilettes publiques",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/propr_toilettes_publiques",
+            "name": "propr_toilettes_publiques",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "069d34e6-26dc-11ee-9ce8-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "069d34e6-26dc-11ee-9ce8-84a93e705419"
+        },
+        {
+          "title": "Couches Toilettes publiques",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/propr_toilettes_publiques.qlr",
+            "name": "propr_toilettes_publiques",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "069d34e6-26dc-11ee-9ce8-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "069d34e6-26dc-11ee-9ce8-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "07031018-26dc-11ee-89c3-84a93e705419"
     },
     {
       "title": "Référentiel",
@@ -471,300 +743,406 @@
           "title": "Fond de carte gris",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/refer_fond_gris",
+            "url": "https://wpsiglw.cus.fr/qgis/refer_fond_gris",
             "name": "refer_fond_gris",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "069fb3d3-26dc-11ee-9aac-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_09_14_15"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_09_14_15",
+          "ident": "069fb3d3-26dc-11ee-9aac-84a93e705419"
         },
         {
           "title": "Couches Fond de carte gris",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/refer_fond_gris.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/refer_fond_gris.qlr",
             "name": "refer_fond_gris",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "069fb3d3-26dc-11ee-9aac-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_09_14_15"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_09_14_15",
+          "ident": "069fb3d3-26dc-11ee-9aac-84a93e705419"
         },
         {
           "title": "Fond de carte couleur",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/refer_fond_couleur",
+            "url": "https://wpsiglw.cus.fr/qgis/refer_fond_couleur",
             "name": "refer_fond_couleur",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06a055db-26dc-11ee-8ae7-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_09_14_15"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_09_14_15",
+          "ident": "06a055db-26dc-11ee-8ae7-84a93e705419"
         },
         {
           "title": "Couches Fond de carte couleur",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/refer_fond_couleur.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/refer_fond_couleur.qlr",
             "name": "refer_fond_couleur",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06a055db-26dc-11ee-8ae7-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_09_14_15"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_09_14_15",
+          "ident": "06a055db-26dc-11ee-8ae7-84a93e705419"
         },
         {
           "title": "Raster d'élévation 2021 (ombrage)",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/refer_raster_elevation_2021",
+            "url": "https://wpsiglw.cus.fr/qgis/refer_raster_elevation_2021",
             "name": "refer_raster_elevation_2021",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06a28e14-26dc-11ee-9794-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_01_11_58"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_01_11_58",
+          "ident": "06a28e14-26dc-11ee-9794-84a93e705419"
         },
         {
           "title": "Couches Raster d'élévation 2021 (ombrage)",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/refer_raster_elevation_2021.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/refer_raster_elevation_2021.qlr",
             "name": "refer_raster_elevation_2021",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06a28e14-26dc-11ee-9794-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_01_11_58"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_01_11_58",
+          "ident": "06a28e14-26dc-11ee-9794-84a93e705419"
         },
         {
           "title": "Ortho-photographie 2013",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/refer_ortho2013",
+            "url": "https://wpsiglw.cus.fr/qgis/refer_ortho2013",
             "name": "refer_ortho2013",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06a4f26d-26dc-11ee-8e3b-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06a4f26d-26dc-11ee-8e3b-84a93e705419"
         },
         {
           "title": "Couches Ortho-photographie 2013",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/refer_ortho2013.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/refer_ortho2013.qlr",
             "name": "refer_ortho2013",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06a4f26d-26dc-11ee-8e3b-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06a4f26d-26dc-11ee-8e3b-84a93e705419"
         },
         {
-          "title": "Ortho photomaillage 2018",
+          "title": "Ortho image 2018",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/refer_ortho2018",
+            "url": "https://wpsiglw.cus.fr/qgis/refer_ortho2018",
             "name": "refer_ortho2018",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06a75516-26dc-11ee-af6d-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2019_05_02_58"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2019_05_02_58",
+          "ident": "06a75516-26dc-11ee-af6d-84a93e705419"
         },
         {
-          "title": "Couches Ortho photomaillage 2018",
+          "title": "Couches Ortho image 2018",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/refer_ortho2018.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/refer_ortho2018.qlr",
             "name": "refer_ortho2018",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06a75516-26dc-11ee-af6d-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2019_05_02_58"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2019_05_02_58",
+          "ident": "06a75516-26dc-11ee-af6d-84a93e705419"
         },
         {
           "title": "Ortho-photographie 2020",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/refer_ortho2020",
+            "url": "https://wpsiglw.cus.fr/qgis/refer_ortho2020",
             "name": "refer_ortho2020",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06a9c003-26dc-11ee-aae3-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06a9c003-26dc-11ee-aae3-84a93e705419"
         },
         {
           "title": "Couches Ortho-photographie 2020",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/refer_ortho2020.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/refer_ortho2020.qlr",
             "name": "refer_ortho2020",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06a9c003-26dc-11ee-aae3-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06a9c003-26dc-11ee-aae3-84a93e705419"
         },
         {
-          "title": "Images 360",
+          "title": "Vues immersives 360",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/refer_image360",
+            "url": "https://wpsiglw.cus.fr/qgis/refer_image360",
             "name": "refer_image360",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06aca2e4-26dc-11ee-9430-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_03_28_34"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_03_28_34",
+          "ident": "06aca2e4-26dc-11ee-9430-84a93e705419"
         },
         {
-          "title": "Couches Images 360",
+          "title": "Couches Vues immersives 360",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/refer_image360.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/refer_image360.qlr",
             "name": "refer_image360",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06aca2e4-26dc-11ee-9430-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_03_28_34"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2022_03_28_34",
+          "ident": "06aca2e4-26dc-11ee-9430-84a93e705419"
         },
         {
           "title": "Filaire de circulation light",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/refer_filaire",
+            "url": "https://wpsiglw.cus.fr/qgis/refer_filaire",
             "name": "refer_filaire",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06af10b2-26dc-11ee-ac92-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06af10b2-26dc-11ee-ac92-84a93e705419"
         },
         {
           "title": "Couches Filaire de circulation light",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/refer_filaire.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/refer_filaire.qlr",
             "name": "refer_filaire",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06af10b2-26dc-11ee-ac92-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06af10b2-26dc-11ee-ac92-84a93e705419"
         },
         {
-          "title": "Ortho nocturne 2020",
+          "title": "Ortho-photographie nocturne",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/refer_ortho_nocturne",
+            "url": "https://wpsiglw.cus.fr/qgis/refer_ortho_nocturne",
             "name": "refer_ortho_nocturne",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06b17473-26dc-11ee-858a-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06b17473-26dc-11ee-858a-84a93e705419"
         },
         {
-          "title": "Couches Ortho nocturne 2020",
+          "title": "Couches Ortho-photographie nocturne",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/refer_ortho_nocturne.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/refer_ortho_nocturne.qlr",
             "name": "refer_ortho_nocturne",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06b17473-26dc-11ee-858a-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06b17473-26dc-11ee-858a-84a93e705419"
+        },
+        {
+          "title": "Fond OpenStreetMap",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/refer_osm_xyz",
+            "name": "refer_osm_xyz",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06b1d65e-26dc-11ee-8d76-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06b1d65e-26dc-11ee-8d76-84a93e705419"
+        },
+        {
+          "title": "Couches Fond OpenStreetMap",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/refer_osm_xyz.qlr",
+            "name": "refer_osm_xyz",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06b1d65e-26dc-11ee-8d76-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06b1d65e-26dc-11ee-8d76-84a93e705419"
+        },
+        {
+          "title": "Orthophotographie HR 2022",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/refer_ortho2022",
+            "name": "refer_ortho2022",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06b443fc-26dc-11ee-945a-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06b443fc-26dc-11ee-945a-84a93e705419"
+        },
+        {
+          "title": "Couches Orthophotographie HR 2022",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/refer_ortho2022.qlr",
+            "name": "refer_ortho2022",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06b443fc-26dc-11ee-945a-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06b443fc-26dc-11ee-945a-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "07031019-26dc-11ee-8e3c-84a93e705419"
     },
     {
       "title": "Réseau",
       "children": [
         {
-          "title": "Réseau d'eau potable",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://whsiglw.cus.fr/qgis/resea_aep_patrimoine",
-            "name": "resea_aep_patrimoine",
-            "format": "image/png",
-            "srs": "EPSG:3948"
-          },
-          "description": "acces wms au theme",
-          "metadata_url": ""
-        },
-        {
-          "title": "Couches Réseau d'eau potable",
-          "type": "qgis_qlr_file",
-          "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/resea_aep_patrimoine.qlr",
-            "name": "resea_aep_patrimoine",
-            "format": "image/png",
-            "srs": "EPSG:3948"
-          },
-          "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
-        },
-        {
-          "title": "Réseau d'assainissement",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://whsiglw.cus.fr/qgis/resea_ass_patrimoine",
-            "name": "resea_ass_patrimoine",
-            "format": "image/png",
-            "srs": "EPSG:3948"
-          },
-          "description": "acces wms au theme",
-          "metadata_url": ""
-        },
-        {
-          "title": "Couches Réseau d'assainissement",
-          "type": "qgis_qlr_file",
-          "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/resea_ass_patrimoine.qlr",
-            "name": "resea_ass_patrimoine",
-            "format": "image/png",
-            "srs": "EPSG:3948"
-          },
-          "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
-        },
-        {
           "title": "Réseau de chaleur",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/resea_reseau_chaleur",
+            "url": "https://wpsiglw.cus.fr/qgis/resea_reseau_chaleur",
             "name": "resea_reseau_chaleur",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06b69c8f-26dc-11ee-9435-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06b69c8f-26dc-11ee-9435-84a93e705419"
         },
         {
           "title": "Couches Réseau de chaleur",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/resea_reseau_chaleur.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/resea_reseau_chaleur.qlr",
             "name": "resea_reseau_chaleur",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06b69c8f-26dc-11ee-9435-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06b69c8f-26dc-11ee-9435-84a93e705419"
+        },
+        {
+          "title": "Réseau d'eau potable",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/resea_aep_patrimoine",
+            "name": "resea_aep_patrimoine",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06b90008-26dc-11ee-9675-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06b90008-26dc-11ee-9675-84a93e705419"
+        },
+        {
+          "title": "Couches Réseau d'eau potable",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/resea_aep_patrimoine.qlr",
+            "name": "resea_aep_patrimoine",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06b90008-26dc-11ee-9675-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06b90008-26dc-11ee-9675-84a93e705419"
+        },
+        {
+          "title": "Réseau d'assainissement",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/resea_ass_patrimoine",
+            "name": "resea_ass_patrimoine",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06bc4695-26dc-11ee-b1a9-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06bc4695-26dc-11ee-b1a9-84a93e705419"
+        },
+        {
+          "title": "Couches Réseau d'assainissement",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/resea_ass_patrimoine.qlr",
+            "name": "resea_ass_patrimoine",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06bc4695-26dc-11ee-b1a9-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06bc4695-26dc-11ee-b1a9-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "0703101a-26dc-11ee-89ca-84a93e705419"
     },
     {
       "title": "Sécurité - Prévention",
@@ -773,84 +1151,434 @@
           "title": "Cavités souterraines",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/secur_cavites",
+            "url": "https://wpsiglw.cus.fr/qgis/secur_cavites",
             "name": "secur_cavites",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06beac31-26dc-11ee-8e19-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_06_30_25"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_06_30_25",
+          "ident": "06beac31-26dc-11ee-8e19-84a93e705419"
         },
         {
           "title": "Couches Cavités souterraines",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/secur_cavites.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_cavites.qlr",
             "name": "secur_cavites",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06beac31-26dc-11ee-8e19-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_06_30_25"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_06_30_25",
+          "ident": "06beac31-26dc-11ee-8e19-84a93e705419"
         },
         {
           "title": "Plan de prévention des risques inondation",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/secur_ppri",
+            "url": "https://wpsiglw.cus.fr/qgis/secur_ppri",
             "name": "secur_ppri",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06c1245b-26dc-11ee-bae2-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_08_30_15"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_08_30_15",
+          "ident": "06c1245b-26dc-11ee-bae2-84a93e705419"
         },
         {
           "title": "Couches Plan de prévention des risques inondation",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/secur_ppri.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_ppri.qlr",
             "name": "secur_ppri",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06c1245b-26dc-11ee-bae2-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_08_30_15"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2018_08_30_15",
+          "ident": "06c1245b-26dc-11ee-bae2-84a93e705419"
+        },
+        {
+          "title": "Hébergement de secours",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/secur_hebergement_secours",
+            "name": "secur_hebergement_secours",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06c389ac-26dc-11ee-9173-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06c389ac-26dc-11ee-9173-84a93e705419"
+        },
+        {
+          "title": "Couches Hébergement de secours",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_hebergement_secours.qlr",
+            "name": "secur_hebergement_secours",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06c389ac-26dc-11ee-9173-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06c389ac-26dc-11ee-9173-84a93e705419"
+        },
+        {
+          "title": "ERP sensibles",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/secur_erp_sensible",
+            "name": "secur_erp_sensible",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06c84c77-26dc-11ee-8d65-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2023_04_12_83",
+          "ident": "06c84c77-26dc-11ee-8d65-84a93e705419"
+        },
+        {
+          "title": "Couches ERP sensibles",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_erp_sensible.qlr",
+            "name": "secur_erp_sensible",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06c84c77-26dc-11ee-8d65-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2023_04_12_83",
+          "ident": "06c84c77-26dc-11ee-8d65-84a93e705419"
+        },
+        {
+          "title": "Sites et sols pollués",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/secur_sites_et_sols_pollues",
+            "name": "secur_sites_et_sols_pollues",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06cb615d-26dc-11ee-97b3-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06cb615d-26dc-11ee-97b3-84a93e705419"
+        },
+        {
+          "title": "Couches Sites et sols pollués",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_sites_et_sols_pollues.qlr",
+            "name": "secur_sites_et_sols_pollues",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06cb615d-26dc-11ee-97b3-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06cb615d-26dc-11ee-97b3-84a93e705419"
+        },
+        {
+          "title": "Réseau national d'alerte",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/secur_reseau_national_alerte",
+            "name": "secur_reseau_national_alerte",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06cdcef0-26dc-11ee-97d0-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06cdcef0-26dc-11ee-97d0-84a93e705419"
+        },
+        {
+          "title": "Couches Réseau national d'alerte",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_reseau_national_alerte.qlr",
+            "name": "secur_reseau_national_alerte",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06cdcef0-26dc-11ee-97d0-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06cdcef0-26dc-11ee-97d0-84a93e705419"
+        },
+        {
+          "title": "Plan iode",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/secur_plan_iode",
+            "name": "secur_plan_iode",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06d06c56-26dc-11ee-a85b-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06d06c56-26dc-11ee-a85b-84a93e705419"
+        },
+        {
+          "title": "Couches Plan iode",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_plan_iode.qlr",
+            "name": "secur_plan_iode",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06d06c56-26dc-11ee-a85b-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06d06c56-26dc-11ee-a85b-84a93e705419"
+        },
+        {
+          "title": "Plan variole",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/secur_plan_variole",
+            "name": "secur_plan_variole",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06d2da3b-26dc-11ee-8380-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06d2da3b-26dc-11ee-8380-84a93e705419"
+        },
+        {
+          "title": "Couches Plan variole",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_plan_variole.qlr",
+            "name": "secur_plan_variole",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06d2da3b-26dc-11ee-8380-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06d2da3b-26dc-11ee-8380-84a93e705419"
+        },
+        {
+          "title": "Anciens sites industriels",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/secur_ancien_site_indus",
+            "name": "secur_ancien_site_indus",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06d53c4c-26dc-11ee-918c-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06d53c4c-26dc-11ee-918c-84a93e705419"
+        },
+        {
+          "title": "Couches Anciens sites industriels",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_ancien_site_indus.qlr",
+            "name": "secur_ancien_site_indus",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06d53c4c-26dc-11ee-918c-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06d53c4c-26dc-11ee-918c-84a93e705419"
+        },
+        {
+          "title": "Plan d'exposition au bruit et Plan de gêne sonore",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/secur_peb_pgs",
+            "name": "secur_peb_pgs",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06d79e8a-26dc-11ee-8738-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06d79e8a-26dc-11ee-8738-84a93e705419"
+        },
+        {
+          "title": "Couches Plan d'exposition au bruit et Plan de gêne sonore",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_peb_pgs.qlr",
+            "name": "secur_peb_pgs",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06d79e8a-26dc-11ee-8738-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06d79e8a-26dc-11ee-8738-84a93e705419"
+        },
+        {
+          "title": "Risques technologiques - PPRT et PAC",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/secur_risques_techno",
+            "name": "secur_risques_techno",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06daac7c-26dc-11ee-95c3-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06daac7c-26dc-11ee-95c3-84a93e705419"
+        },
+        {
+          "title": "Couches Risques technologiques - PPRT et PAC",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_risques_techno.qlr",
+            "name": "secur_risques_techno",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06daac7c-26dc-11ee-95c3-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06daac7c-26dc-11ee-95c3-84a93e705419"
+        },
+        {
+          "title": "Niveaux de nappe phréatique",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/secur_niveau_nappe",
+            "name": "secur_niveau_nappe",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06dd18aa-26dc-11ee-8518-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06dd18aa-26dc-11ee-8518-84a93e705419"
+        },
+        {
+          "title": "Couches Niveaux de nappe phréatique",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_niveau_nappe.qlr",
+            "name": "secur_niveau_nappe",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06dd18aa-26dc-11ee-8518-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06dd18aa-26dc-11ee-8518-84a93e705419"
+        },
+        {
+          "title": "Qualité de l'air",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/secur_qualite_air",
+            "name": "secur_qualite_air",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06dfb716-26dc-11ee-9338-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06dfb716-26dc-11ee-9338-84a93e705419"
+        },
+        {
+          "title": "Couches Qualité de l'air",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/secur_qualite_air.qlr",
+            "name": "secur_qualite_air",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06dfb716-26dc-11ee-9338-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06dfb716-26dc-11ee-9338-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "0703101b-26dc-11ee-8b19-84a93e705419"
     },
     {
       "title": "Société - Santé",
       "children": [
         {
-          "title": "Etablissements scolaires",
+          "title": "Etablissements et secteurs scolaires",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/socie_etablissement_scolaire",
-            "name": "socie_etablissement_scolaire",
+            "url": "https://wpsiglw.cus.fr/qgis/socie_etabts_et_secteurs_scolaires",
+            "name": "socie_etabts_et_secteurs_scolaires",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06e22653-26dc-11ee-a36c-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06e22653-26dc-11ee-a36c-84a93e705419"
         },
         {
-          "title": "Couches Etablissements scolaires",
+          "title": "Couches Etablissements et secteurs scolaires",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/socie_etablissement_scolaire.qlr",
-            "name": "socie_etablissement_scolaire",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/socie_etabts_et_secteurs_scolaires.qlr",
+            "name": "socie_etabts_et_secteurs_scolaires",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06e22653-26dc-11ee-a36c-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06e22653-26dc-11ee-a36c-84a93e705419"
+        },
+        {
+          "title": "IRIS - EMS et ALSACE",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/socie_iris",
+            "name": "socie_iris",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06e488a9-26dc-11ee-8269-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06e488a9-26dc-11ee-8269-84a93e705419"
+        },
+        {
+          "title": "Couches IRIS - EMS et ALSACE",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/socie_iris.qlr",
+            "name": "socie_iris",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06e488a9-26dc-11ee-8269-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06e488a9-26dc-11ee-8269-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "0703101c-26dc-11ee-9e8e-84a93e705419"
     },
     {
       "title": "Sport - Loisir - Culture",
@@ -859,53 +1587,90 @@
           "title": "Vitaboucle et aires d'agrès",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/loisi_vitaboucle",
+            "url": "https://wpsiglw.cus.fr/qgis/loisi_vitaboucle",
             "name": "loisi_vitaboucle",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06e488aa-26dc-11ee-8a37-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2020_08_07_59"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2020_08_07_59",
+          "ident": "06e488aa-26dc-11ee-8a37-84a93e705419"
         },
         {
           "title": "Couches Vitaboucle et aires d'agrès",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/loisi_vitaboucle.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/loisi_vitaboucle.qlr",
             "name": "loisi_vitaboucle",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06e488aa-26dc-11ee-8a37-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2020_08_07_59"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2020_08_07_59",
+          "ident": "06e488aa-26dc-11ee-8a37-84a93e705419"
         },
         {
           "title": "Médiathèques",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/loisi_mediatheques",
+            "url": "https://wpsiglw.cus.fr/qgis/loisi_mediatheques",
             "name": "loisi_mediatheques",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06e6e009-26dc-11ee-8eb2-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2019_12_02_59"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2019_12_02_59",
+          "ident": "06e6e009-26dc-11ee-8eb2-84a93e705419"
         },
         {
           "title": "Couches Médiathèques",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/loisi_mediatheques.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/loisi_mediatheques.qlr",
             "name": "loisi_mediatheques",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06e6e009-26dc-11ee-8eb2-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2019_12_02_59"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2019_12_02_59",
+          "ident": "06e6e009-26dc-11ee-8eb2-84a93e705419"
+        },
+        {
+          "title": "Restaurants agréés Ville et Eurométropole",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/loisi_restaurant_agree",
+            "name": "loisi_restaurant_agree",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06e9a1f9-26dc-11ee-a324-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06e9a1f9-26dc-11ee-a324-84a93e705419"
+        },
+        {
+          "title": "Couches Restaurants agréés Ville et Eurométropole",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/loisi_restaurant_agree.qlr",
+            "name": "loisi_restaurant_agree",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06e9a1f9-26dc-11ee-a324-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06e9a1f9-26dc-11ee-a324-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "0703101d-26dc-11ee-a29a-84a93e705419"
     },
     {
       "title": "Urbanisme",
@@ -914,262 +1679,353 @@
           "title": "PLU - Règlement",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/urban_plu_reglement",
+            "url": "https://wpsiglw.cus.fr/qgis/urban_plu_reglement",
             "name": "urban_plu_reglement",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06ec0f23-26dc-11ee-ad5d-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_06_49"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_06_49",
+          "ident": "06ec0f23-26dc-11ee-ad5d-84a93e705419"
         },
         {
           "title": "Couches PLU - Règlement",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/urban_plu_reglement.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/urban_plu_reglement.qlr",
             "name": "urban_plu_reglement",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06ec0f23-26dc-11ee-ad5d-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_06_49"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2017_09_06_49",
+          "ident": "06ec0f23-26dc-11ee-ad5d-84a93e705419"
         },
         {
           "title": "Projets urbains",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/urban_projet_urbain",
+            "url": "https://wpsiglw.cus.fr/qgis/urban_projet_urbain",
             "name": "urban_projet_urbain",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06eefb7e-26dc-11ee-a30b-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06eefb7e-26dc-11ee-a30b-84a93e705419"
         },
         {
           "title": "Couches Projets urbains",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/urban_projet_urbain.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/urban_projet_urbain.qlr",
             "name": "urban_projet_urbain",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06eefb7e-26dc-11ee-a30b-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06eefb7e-26dc-11ee-a30b-84a93e705419"
         },
         {
           "title": "Contours historiques de la Ceinture verte",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/urban_ceinture_verte_historique",
+            "url": "https://wpsiglw.cus.fr/qgis/urban_ceinture_verte_historique",
             "name": "urban_ceinture_verte_historique",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06f16398-26dc-11ee-a53c-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06f16398-26dc-11ee-a53c-84a93e705419"
         },
         {
           "title": "Couches Contours historiques de la Ceinture verte",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/urban_ceinture_verte_historique.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/urban_ceinture_verte_historique.qlr",
             "name": "urban_ceinture_verte_historique",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06f16398-26dc-11ee-a53c-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06f16398-26dc-11ee-a53c-84a93e705419"
         },
         {
           "title": "Annexe PLU - Droit de préemption urbain",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/urban_plu_annexe_dpu",
+            "url": "https://wpsiglw.cus.fr/qgis/urban_plu_annexe_dpu",
             "name": "urban_plu_annexe_dpu",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06f3cb9c-26dc-11ee-91cd-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06f3cb9c-26dc-11ee-91cd-84a93e705419"
         },
         {
           "title": "Couches Annexe PLU - Droit de préemption urbain",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/urban_plu_annexe_dpu.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/urban_plu_annexe_dpu.qlr",
             "name": "urban_plu_annexe_dpu",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06f3cb9c-26dc-11ee-91cd-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06f3cb9c-26dc-11ee-91cd-84a93e705419"
         },
         {
           "title": "Annexe PLU - Orientations d'aménagement de de programmation",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/urban_plu_annexe_oap",
+            "url": "https://wpsiglw.cus.fr/qgis/urban_plu_annexe_oap",
             "name": "urban_plu_annexe_oap",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06f62f05-26dc-11ee-8535-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06f62f05-26dc-11ee-8535-84a93e705419"
         },
         {
           "title": "Couches Annexe PLU - Orientations d'aménagement de de programmation",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/urban_plu_annexe_oap.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/urban_plu_annexe_oap.qlr",
             "name": "urban_plu_annexe_oap",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06f62f05-26dc-11ee-8535-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06f62f05-26dc-11ee-8535-84a93e705419"
         },
         {
           "title": "Annexe PLU - Zones de stationnement",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/urban_plu_annexe_stationnement",
+            "url": "https://wpsiglw.cus.fr/qgis/urban_plu_annexe_stationnement",
             "name": "urban_plu_annexe_stationnement",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06f885ad-26dc-11ee-8710-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06f885ad-26dc-11ee-8710-84a93e705419"
         },
         {
           "title": "Couches Annexe PLU - Zones de stationnement",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/urban_plu_annexe_stationnement.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/urban_plu_annexe_stationnement.qlr",
             "name": "urban_plu_annexe_stationnement",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06f885ad-26dc-11ee-8710-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06f885ad-26dc-11ee-8710-84a93e705419"
         },
         {
           "title": "Annexe PLU - Périmètres des taxes d'aménagement",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/urban_plu_annexe_ta",
+            "url": "https://wpsiglw.cus.fr/qgis/urban_plu_annexe_ta",
             "name": "urban_plu_annexe_ta",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06f8dbb2-26dc-11ee-9503-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06f8dbb2-26dc-11ee-9503-84a93e705419"
         },
         {
           "title": "Couches Annexe PLU - Périmètres des taxes d'aménagement",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/urban_plu_annexe_ta.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/urban_plu_annexe_ta.qlr",
             "name": "urban_plu_annexe_ta",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06f8dbb2-26dc-11ee-9503-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06f8dbb2-26dc-11ee-9503-84a93e705419"
         },
         {
           "title": "Annexe PLU - Plan de vigilance",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/urban_plu_annexe_vigilance",
+            "url": "https://wpsiglw.cus.fr/qgis/urban_plu_annexe_vigilance",
             "name": "urban_plu_annexe_vigilance",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06fb3e89-26dc-11ee-aebf-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06fb3e89-26dc-11ee-aebf-84a93e705419"
         },
         {
           "title": "Couches Annexe PLU - Plan de vigilance",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/urban_plu_annexe_vigilance.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/urban_plu_annexe_vigilance.qlr",
             "name": "urban_plu_annexe_vigilance",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "06fb3e89-26dc-11ee-aebf-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
+          "metadata_url": "",
+          "ident": "06fb3e89-26dc-11ee-aebf-84a93e705419"
+        },
+        {
+          "title": "Zones d'activités existantes",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/urban_zae",
+            "name": "urban_zae",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06fe402f-26dc-11ee-9c5a-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06fe402f-26dc-11ee-9c5a-84a93e705419"
+        },
+        {
+          "title": "Couches Zones d'activités existantes",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/urban_zae.qlr",
+            "name": "urban_zae",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06fe402f-26dc-11ee-9c5a-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06fe402f-26dc-11ee-9c5a-84a93e705419"
+        },
+        {
+          "title": "Règlement local de publicité intercommunal",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/urban_plu_rlpi",
+            "name": "urban_plu_rlpi",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06fe4030-26dc-11ee-87e8-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "06fe4030-26dc-11ee-87e8-84a93e705419"
+        },
+        {
+          "title": "Couches Règlement local de publicité intercommunal",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/urban_plu_rlpi.qlr",
+            "name": "urban_plu_rlpi",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "06fe4030-26dc-11ee-87e8-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "06fe4030-26dc-11ee-87e8-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "0703101e-26dc-11ee-9205-84a93e705419"
     },
     {
       "title": "Voirie publique",
       "children": [
         {
-          "title": "Points de repère routier",
+          "title": "Point de repère routier",
           "type": "wms_layer",
           "params": {
-            "url": "https://whsiglw.cus.fr/qgis/voiri_point_repere",
+            "url": "https://wpsiglw.cus.fr/qgis/voiri_point_repere",
             "name": "voiri_point_repere",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "0700a480-26dc-11ee-8cc5-84a93e705419"
           },
           "description": "acces wms au theme",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_11_22_52"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_11_22_52",
+          "ident": "0700a480-26dc-11ee-8cc5-84a93e705419"
         },
         {
-          "title": "Couches Points de repère routier",
+          "title": "Couches Point de repère routier",
           "type": "qgis_qlr_file",
           "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/voiri_point_repere.qlr",
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/voiri_point_repere.qlr",
             "name": "voiri_point_repere",
             "format": "image/png",
-            "srs": "EPSG:3948"
+            "srs": "EPSG:3948",
+            "ident": "0700a480-26dc-11ee-8cc5-84a93e705419"
           },
           "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": "https://catalog.whsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_11_22_52"
+          "metadata_url": "https://catalog.wpsiglw.cus.fr/geonetwork/srv/fre/catalog.search#/metadata/fr_strasbourg.eu_2021_11_22_52",
+          "ident": "0700a480-26dc-11ee-8cc5-84a93e705419"
+        },
+        {
+          "title": "Etat des chaussées et trottoirs",
+          "type": "wms_layer",
+          "params": {
+            "url": "https://wpsiglw.cus.fr/qgis/voiri_etat_chaussees",
+            "name": "voiri_etat_chaussees",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "07031010-26dc-11ee-bffc-84a93e705419"
+          },
+          "description": "acces wms au theme",
+          "metadata_url": "",
+          "ident": "07031010-26dc-11ee-bffc-84a93e705419"
+        },
+        {
+          "title": "Couches Etat des chaussées et trottoirs",
+          "type": "qgis_qlr_file",
+          "params": {
+            "url": "https://catalog.wpsiglw.cus.fr/donnees/qgis/qlr/voiri_etat_chaussees.qlr",
+            "name": "voiri_etat_chaussees",
+            "format": "image/png",
+            "srs": "EPSG:3948",
+            "ident": "07031010-26dc-11ee-bffc-84a93e705419"
+          },
+          "description": "chargement du theme en acces direct a la base de donnees",
+          "metadata_url": "",
+          "ident": "07031010-26dc-11ee-bffc-84a93e705419"
         }
       ],
       "description": "",
-      "type": "folder"
-    },
-    {
-      "title": "new theme group",
-      "children": [
-        {
-          "title": "test impression",
-          "type": "wms_layer",
-          "params": {
-            "url": "https://whsiglw.cus.fr/qgis/defaut",
-            "name": "defaut",
-            "format": "image/png",
-            "srs": "EPSG:3857"
-          },
-          "description": "acces wms au theme",
-          "metadata_url": ""
-        },
-        {
-          "title": "Couches test impression",
-          "type": "qgis_qlr_file",
-          "params": {
-            "url": "https://catalog.whsiglw.cus.fr/donnees/qgis/qlr/defaut.qlr",
-            "name": "defaut",
-            "format": "image/png",
-            "srs": "EPSG:3857"
-          },
-          "description": "chargement du theme en acces direct a la base de donnees",
-          "metadata_url": ""
-        }
-      ],
-      "description": "",
-      "type": "folder"
+      "type": "folder",
+      "ident": "0703101f-26dc-11ee-b1a4-84a93e705419"
     }
   ],
-  "title": "ems - version 2023/02/09 00:00:00",
+  "title": "ems - version 2023/07/20 00:00:00",
   "description": "",
   "type": "folder"
 }

@@ -1,0 +1,8 @@
+<!DOCTYPE qgis_authentication>
+<qgis_authentication>
+  <configurations>
+    <AuthMethodConfig method="OAuth2" uri="" version="1" id="j5zto1t" name="oauth2 prod">
+      <Config oauth2config="{&quot;accessMethod&quot;:0,&quot;apiKey&quot;:&quot;&quot;,&quot;clientId&quot;:&quot;qgis-client&quot;,&quot;clientSecret&quot;:&quot;&quot;,&quot;configType&quot;:1,&quot;customHeader&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;,&quot;grantFlow&quot;:1,&quot;id&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;objectName&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;,&quot;persistToken&quot;:false,&quot;queryPairs&quot;:{},&quot;redirectPort&quot;:80,&quot;redirectUrl&quot;:&quot;&quot;,&quot;refreshTokenUrl&quot;:&quot;&quot;,&quot;requestTimeout&quot;:30,&quot;requestUrl&quot;:&quot;https://catalog.wpsiglw.cus.fr/auth/realms/sigli/protocol/openid-connect/auth&quot;,&quot;scope&quot;:&quot;&quot;,&quot;tokenUrl&quot;:&quot;https://catalog.wpsiglw.cus.fr/auth/realms/sigli/protocol/openid-connect/token&quot;,&quot;username&quot;:&quot;&quot;,&quot;version&quot;:1}"/>
+    </AuthMethodConfig>
+  </configurations>
+</qgis_authentication>

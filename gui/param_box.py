@@ -68,7 +68,7 @@ class ParamBox(QDialog):
         config_file_groupbox_layout.addRow(self.use_auth_config)
 
         # Download the file now
-        self.download_now_label = QLabel(u"Télécharger le fichier maintenant", self)
+        self.download_now_label = QLabel(u"Télécharger et relancer la configurtaion ?", self)
         self.download_now_btnbox = QDialogButtonBox()
         self.download_now_btnbox.setOrientation(Qt.Horizontal)
         self.download_now_btnbox.setStandardButtons(QDialogButtonBox.Yes)
@@ -227,13 +227,6 @@ class ParamBox(QDialog):
         """
         Event sent when the state of the checkbox changes
         """
-
-        if state == Qt.Checked:
-            auth_manager = QgsApplication.authManager()
-            manager = PluginGlobals.instance().CONFIG_FILE_AUTHENT
-            auth_manager.importAuthenticationConfigsFromXml(str(manager),'',True)
-
-        # Evaluate flags
         self.evaluate_flags()
 
 

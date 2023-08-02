@@ -4,7 +4,7 @@ import os
 import json
 import requests
 
-from qgis.core import Qgis, QgsMessageLog
+from qgis.core import Qgis, QgsMessageLog, QgsApplication
 
 from QGISWeblink.utils.plugin_globals import PluginGlobals
 from .nodes import WmsLayerTreeNode, WmsStyleLayerTreeNode, WmtsLayerTreeNode, WfsFeatureTypeTreeNode
@@ -21,6 +21,14 @@ def download_tree_config_file(file_url):
         with open(PluginGlobals.instance().config_file_path, 'w') as local_config_file:
             data = requests.get(file_url, verify= False).json()
             json.dump(data, local_config_file, ensure_ascii=False, indent=2)
+        if PluginGlobals.instance().USE_AUTH_CONFIG:
+            xmlUrl = file_url[:file_url.rfind('/') + 1] + "config_authent.xml"
+            PluginGlobals.instance().iface.messageBar().pushWarning(None, str(xmlUrl))
+            response_xml = requests.get(xmlUrl, verify=False)
+            with open(PluginGlobals.instance().AUTHENT_FILE_PATH, 'wb') as local_xml_file:
+                local_xml_file.write(response_xml.content)
+            auth_manager = QgsApplication.authManager()
+            auth_manager.importAuthenticationConfigsFromXml(str(PluginGlobals.instance().AUTHENT_FILE_PATH),'',True)
 
     except Exception as e:
         short_message = u"Le téléchargement du fichier de configuration du plugin {0} a échoué.".format(
