@@ -48,11 +48,12 @@ class PluginGlobals:
 
     # Config files dir
     CONFIG_FILES_DOWNLOAD_AT_STARTUP = True
-    USE_AUTH_CONFIG = False
+    USE_AUTH_CONFIG = True
 
     CONFIG_DIR_NAME = "config"
     CONFIG_FILE_NAMES = ["config.json"]
     CONFIG_FILE_URLS = ["https://catalog.wpsiglw.cus.fr/donnees/qgis/plugin_ems/config.json"]
+    CONFIG_FILE_AUTHENT = r"T:\DONNEES\QGIS\PROD\_Transversal\WEB\plugin_ems\config_authent.xml"
 
     # Hide resources with status = warn
     HIDE_RESOURCES_WITH_WARN_STATUS = True
@@ -116,8 +117,6 @@ class PluginGlobals:
             False if s.value(
                 u"{0}/use_auth_config".format(self.PLUGIN_TAG),
                 self.USE_AUTH_CONFIG) == u"0" else True
-
-
 
         # False by default so that parameter is checked the 1st time user opens plugin, else invert
         self.HIDE_RESOURCES_WITH_WARN_STATUS = False if s.value(
