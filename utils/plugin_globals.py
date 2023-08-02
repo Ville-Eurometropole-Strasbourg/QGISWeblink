@@ -52,7 +52,7 @@ class PluginGlobals:
 
     CONFIG_DIR_NAME = "config"
     CONFIG_FILE_NAMES = ["config.json"]
-    CONFIG_FILE_URLS = ["https://catalog.whsiglw.cus.fr/donnees/qgis/plugin_ems/config.json"]
+    CONFIG_FILE_URLS = ["https://catalog.wpsiglw.cus.fr/donnees/qgis/plugin_ems/config.json"]
     AUTHENT_FILE_PATH = os.path.join(os.path.dirname(__file__), '..', 'config', 'config_authent.xml')
 
     # Hide resources with status = warn
