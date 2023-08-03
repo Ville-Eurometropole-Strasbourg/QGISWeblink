@@ -36,11 +36,6 @@ class DockWidget(QDockWidget):
         self.displayvisible.setToolTip("Filtrer pour n'afficher que les couches dont l'emprise intersecte l'étendue de la carte")
         self.displayvisible.addItems(["Afficher toutes les couches", "N'afficher que les couches visibles sur la carte"])
         self.displayvisible.currentIndexChanged.connect(self.filter_by_extent)
-        
-        # when map extent changes and display only visible layers is selected, calls filter_by_extent
-        #iface.mapCanvas().mapCanvasRefreshed.connect(self.map_extent_changed)
-        iface.mapCanvas().extentsChanged.connect(self.map_extent_changed)
-
 
         self.treeWidget = TreeWidget()
 
@@ -75,16 +70,7 @@ class DockWidget(QDockWidget):
         Filter the visibility of tree items
         with search bar content
         """
-        self.treeWidget.filter_by_extent(currentindex)
-        
-    def map_extent_changed(self):
-        """
-        When map extent is changed, 
-        update layer list by calling filter_by_extent function
-        """
-        currentIndex = self.displayvisible.currentIndex()
-        self.treeWidget.filter_by_extent(currentIndex)
-        
+        self.treeWidget.filter_by_extent(currentindex)  
 
     def update_visibility_of_tree_items(self):
         """
