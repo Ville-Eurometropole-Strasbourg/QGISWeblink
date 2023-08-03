@@ -3,6 +3,7 @@
 import os
 import json
 import requests
+import urllib3
 
 from qgis.core import Qgis, QgsMessageLog, QgsApplication
 
@@ -11,6 +12,7 @@ from .nodes import WmsLayerTreeNode, WmsStyleLayerTreeNode, WmtsLayerTreeNode, W
 from .nodes import WfsFeatureTypeFilterTreeNode, GdalWmsConfigFileTreeNode, FolderTreeNode
 from .nodes import QlrLayerTreeNode, MultiFormLayerTreeNode
 
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def download_tree_config_file(file_url):
     """
