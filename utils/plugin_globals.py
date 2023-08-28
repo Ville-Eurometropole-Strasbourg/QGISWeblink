@@ -48,7 +48,7 @@ class PluginGlobals:
 
     # Config files dir
     CONFIG_FILES_DOWNLOAD_AT_STARTUP = True
-    USE_AUTH_CONFIG = True
+    USE_AUTH_CONFIG = False
 
     CONFIG_DIR_NAME = "config"
     CONFIG_FILE_NAMES = ["config.json"]
