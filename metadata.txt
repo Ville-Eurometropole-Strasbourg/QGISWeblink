@@ -1,7 +1,7 @@
 [general]
 name=QGISweblink
 description=Plugin QGIS 3 fournissant un accès simple aux flux de l'intranet de l'Eumétropole de Strasbourg et d'autres ressources géographiques internes.
-version=2.1
+version=2.2.1
 qgisMinimumVersion=3.00
 qgisMaximumVersion=3.99
 author=Neogeo Technologies
